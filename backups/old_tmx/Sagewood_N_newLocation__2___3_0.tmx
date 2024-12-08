@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="levelisometric" width="300" height="300" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="advertising_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/advertising_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="129" name="advertising_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/advertising_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="193" name="appliances_com_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_com_01.png" width="512" height="3840"/>
+ </tileset>
+ <tileset firstgid="433" name="appliances_cooking_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_cooking_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="561" name="appliances_laundry_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_laundry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="625" name="appliances_misc_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_misc_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="689" name="appliances_radio_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_radio_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="753" name="appliances_refrigeration_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_refrigeration_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="817" name="appliances_television_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/appliances_television_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="945" name="blends_grassoverlays_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/blends_grassoverlays_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="1025" name="blends_natural_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/blends_natural_01.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="1185" name="blends_natural_01_TEST" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/2x_backup_stable/blends_natural_01_TEST.png" width="1024" height="2560"/>
+ </tileset>
+ <tileset firstgid="1505" name="blends_natural_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/blends_natural_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="1585" name="blends_street_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/blends_street_01.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="1745" name="blends_streetoverlays_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/blends_streetoverlays_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="1825" name="books&amp;misc_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/books&amp;misc_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="1953" name="books&amp;misc_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/books&amp;misc_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="2081" name="brokenglass_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/brokenglass_1.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="2161" name="camping_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/camping_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2225" name="carpentry_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/carpentry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2289" name="carpentry_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/carpentry_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="2417" name="clothing_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/clothing_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2481" name="clothing_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/clothing_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2545" name="constructedobjects_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/constructedobjects_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="2641" name="constructedobjects_signs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/constructedobjects_signs_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2705" name="construction_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/construction_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2769" name="crafted_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/crafted_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="2833" name="d_floorleaves_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_floorleaves_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="2865" name="d_generic_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_generic_1.png" width="1024" height="1280"/>
+ </tileset>
+ <tileset firstgid="3025" name="d_plants_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_plants_1.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="3089" name="d_streetcracks_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_streetcracks_1.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="3217" name="d_trash_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_trash_1.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="3297" name="d_wallcracks_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/d_wallcracks_1.png" width="576" height="1024"/>
+ </tileset>
+ <tileset firstgid="3369" name="damaged_objects_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/damaged_objects_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="3497" name="desks_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/desks_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="3593" name="e_americanholly_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_americanholly_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3625" name="e_americanlinden_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_americanlinden_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3657" name="e_canadianhemlock_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_canadianhemlock_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3689" name="e_carolinasilverbell_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_carolinasilverbell_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3721" name="e_cockspurhawthorn_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_cockspurhawthorn_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3753" name="e_dogwood_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_dogwood_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3785" name="e_easternredbud_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_easternredbud_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="3817" name="e_exterior_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_exterior_snow_1.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="3819" name="e_newgrass_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_newgrass_1.png" width="384" height="1920"/>
+ </tileset>
+ <tileset firstgid="3909" name="e_newgrassbase_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_newgrassbase_snow_1.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="3941" name="e_newsnow_ground_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_newsnow_ground_1.png" width="512" height="768"/>
+ </tileset>
+ <tileset firstgid="3989" name="e_redmaple_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_redmaple_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="4021" name="e_riverbirch_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_riverbirch_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="4053" name="e_roof_snow_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_roof_snow_1.png" width="512" height="1792"/>
+ </tileset>
+ <tileset firstgid="4165" name="e_virginiapine_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_virginiapine_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="4197" name="e_yellowwood_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/e_yellowwood_1.png" width="256" height="1024"/>
+ </tileset>
+ <tileset firstgid="4229" name="electricity_pylon" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/electricity_pylon.png" width="512" height="2944"/>
+ </tileset>
+ <tileset firstgid="4413" name="f_bushes_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/f_bushes_1.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="4541" name="f_bushes_2" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/f_bushes_2.png" width="640" height="1024"/>
+ </tileset>
+ <tileset firstgid="4621" name="f_flowerbed_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/f_flowerbed_1.png" width="768" height="512"/>
+ </tileset>
+ <tileset firstgid="4669" name="f_wallvines_1" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/f_wallvines_1.png" width="384" height="1536"/>
+ </tileset>
+ <tileset firstgid="4741" name="fencing_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fencing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="4869" name="fencing_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fencing_burnt_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="4997" name="fencing_damaged_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fencing_damaged_01.png" width="512" height="3072"/>
+ </tileset>
+ <tileset firstgid="5189" name="fencing_damaged_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fencing_damaged_02.png" width="512" height="3072"/>
+ </tileset>
+ <tileset firstgid="5381" name="fixtures_bathroom_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_bathroom_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="5461" name="fixtures_bathroom_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_bathroom_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="5525" name="fixtures_counters_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_counters_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="5653" name="fixtures_doors_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_doors_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="5781" name="fixtures_doors_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_doors_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="5909" name="fixtures_doors_fences_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_doors_fences_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="6029" name="fixtures_doors_frames_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_doors_frames_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="6093" name="fixtures_escalators_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_escalators_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="6157" name="fixtures_fireplaces_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_fireplaces_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="6237" name="fixtures_overlay_counters_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_overlay_counters_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="6365" name="fixtures_railings_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_railings_01.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="6509" name="fixtures_sinks_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_sinks_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="6573" name="fixtures_stairs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_stairs_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="6701" name="fixtures_windows_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_windows_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="6781" name="fixtures_windows_curtains_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_windows_curtains_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="6909" name="fixtures_windows_curtains_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_windows_curtains_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="6973" name="fixtures_windows_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/fixtures_windows_detailing_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7037" name="fixtures_windows_detailing_02" tilewidth="64" tileheight="128">
+  <image source="fixtures_windows_detailing_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7101" name="floors_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_burnt_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7165" name="floors_exterior_natural_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_exterior_natural_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7229" name="floors_exterior_street_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_exterior_street_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7293" name="floors_exterior_tilesandstone_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_exterior_tilesandstone_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7357" name="floors_interior_carpet_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_interior_carpet_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="7421" name="floors_interior_tilesandwood_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_interior_tilesandwood_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="7549" name="floors_overlay_street_01" tilewidth="64" tileheight="128">
+  <image source="overlays/floors_overlay_street_01.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="7621" name="floors_overlay_tiles_01" tilewidth="64" tileheight="128">
+  <image source="overlays/floors_overlay_tiles_01.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="7693" name="floors_overlay_tiles_02" tilewidth="64" tileheight="128">
+  <image source="overlays/floors_overlay_tiles_02.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="7765" name="floors_overlay_wood_01" tilewidth="64" tileheight="128">
+  <image source="overlays/floors_overlay_wood_01.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="7837" name="floors_rugs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/floors_rugs_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="7965" name="food_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/food_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="8093" name="food_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/food_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="8221" name="foraging_01" tilewidth="64" tileheight="128">
+  <image source="foraging_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8285" name="furniture_bedding_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_bedding_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="8413" name="furniture_seating_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_seating_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8477" name="furniture_seating_indoor_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_seating_indoor_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8541" name="furniture_seating_indoor_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_seating_indoor_03.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="8621" name="furniture_seating_outdoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_seating_outdoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8685" name="furniture_shelving_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_shelving_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8749" name="furniture_storage_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_storage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8813" name="furniture_storage_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_storage_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8877" name="furniture_tables_high_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_tables_high_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="8941" name="furniture_tables_low_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/furniture_tables_low_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9005" name="industry_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9069" name="industry_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_02.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="9325" name="industry_bunker_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_bunker_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9405" name="industry_railroad_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_railroad_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9469" name="industry_railroad_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_railroad_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9533" name="industry_railroad_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_railroad_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9597" name="industry_railroad_04" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_railroad_04.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9661" name="industry_railroad_05" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_railroad_05.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9725" name="industry_trucks_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_trucks_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9805" name="industry_trucks_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/industry_trucks_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="9885" name="invisible_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/invisible_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="9949" name="jumbo_tree_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/jumbo_tree_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10077" name="lighting_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/lighting_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10141" name="lighting_outdoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/lighting_outdoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10205" name="location_barn_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_barn_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10269" name="location_business_bank_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_business_bank_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10333" name="location_business_distillery_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_business_distillery_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="10461" name="location_business_machinery_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_business_machinery_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10525" name="location_business_office_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_business_office_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10589" name="location_community_cemetary_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_cemetary_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="10669" name="location_community_church_small_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_church_small_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="10797" name="location_community_church_small_02" tilewidth="64" tileheight="128">
+  <image source="location_community_church_small_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="10861" name="location_community_medical_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_medical_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="10989" name="location_community_park_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_park_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="11069" name="location_community_police_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_police_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="11133" name="location_community_school_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_community_school_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="11197" name="location_entertainment_gallery_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_entertainment_gallery_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="11325" name="location_entertainment_gallery_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_entertainment_gallery_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="11453" name="location_entertainment_theatre_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_entertainment_theatre_01.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="11709" name="location_farm_accesories_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_farm_accesories_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="11789" name="location_hospitality_sunstarmotel_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_hospitality_sunstarmotel_01.png" width="512" height="1152"/>
+ </tileset>
+ <tileset firstgid="11861" name="location_hospitality_sunstarmotel_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_hospitality_sunstarmotel_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="11925" name="location_military_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_military_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="11989" name="location_military_knox_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_military_knox_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12053" name="location_military_tent_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_military_tent_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="12181" name="location_restaurant_bar_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_bar_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="12277" name="location_restaurant_diner_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_diner_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12341" name="location_restaurant_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_generic_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12405" name="location_restaurant_pie_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_pie_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12469" name="location_restaurant_pileocrepe_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_pileocrepe_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12533" name="location_restaurant_pizzawhirled_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_pizzawhirled_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="12661" name="location_restaurant_seahorse_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_seahorse_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="12789" name="location_restaurant_spiffos_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_spiffos_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="12869" name="location_restaurant_spiffos_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_spiffos_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12933" name="location_restaurant_spiffos_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_restaurant_spiffos_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="12997" name="location_services_beauty_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_services_beauty_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="13077" name="location_sewer_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_sewer_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13141" name="location_shop_accessories_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_accessories_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13205" name="location_shop_accessories_genericsigns_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_accessories_genericsigns_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13333" name="location_shop_bargNclothes_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_bargNclothes_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13397" name="location_shop_fossoil_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_fossoil_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13461" name="location_shop_gas2go_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_gas2go_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="13525" name="location_shop_generic_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_generic_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13653" name="location_shop_greenes_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_greenes_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="13733" name="location_shop_mall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_mall_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="13861" name="location_shop_mall_signs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_mall_signs_01.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="14005" name="location_shop_mall_signs_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_mall_signs_02.png" width="512" height="2304"/>
+ </tileset>
+ <tileset firstgid="14149" name="location_shop_zippee_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_shop_zippee_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14213" name="location_trailer_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_trailer_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14277" name="location_trailer_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/location_trailer_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14341" name="missing_tileset_666" tilewidth="64" tileheight="128">
+  <image source="missing_tileset_666.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14405" name="office_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/office_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14469" name="overlay_blood_fence_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_blood_fence_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14533" name="overlay_blood_floor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_blood_floor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14597" name="overlay_blood_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_blood_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14661" name="overlay_graffiti_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_graffiti_wall_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="14789" name="overlay_grime_floor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_grime_floor_01.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="14885" name="overlay_grime_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_grime_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="14949" name="overlay_messages_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/overlay_messages_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15013" name="papernotices_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/papernotices_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15077" name="radio_tower" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/radio_tower.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15205" name="recreational_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/recreational_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="15269" name="recreational_sports_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/recreational_sports_01.png" width="512" height="4096"/>
+ </tileset>
+ <tileset firstgid="15525" name="roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="15645" name="roofs_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_02.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="15765" name="roofs_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_03.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="15893" name="roofs_04" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_04.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="16013" name="roofs_05" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_05.png" width="512" height="2944"/>
+ </tileset>
+ <tileset firstgid="16197" name="roofs_accents_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_accents_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="16277" name="roofs_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/roofs_burnt_01.png" width="512" height="1920"/>
+ </tileset>
+ <tileset firstgid="16397" name="seating_01" tilewidth="64" tileheight="128">
+  <image source="overlays/seating_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="16461" name="security_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/security_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="16541" name="signs_miscbrands_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_miscbrands_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="16669" name="signs_one-off_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_one-off_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="16797" name="signs_one-off_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_one-off_02.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="17309" name="signs_one-off_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_one-off_03.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="17821" name="signs_one-off_04" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_one-off_04.png" width="512" height="8192"/>
+ </tileset>
+ <tileset firstgid="18333" name="signs_one-off_05" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/signs_one-off_05.png" width="512" height="12288"/>
+ </tileset>
+ <tileset firstgid="19101" name="stashes_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/stashes_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="19229" name="storage_01" tilewidth="64" tileheight="128">
+  <image source="overlays/storage_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="19309" name="street_curbs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="19389" name="street_curbs_01_blend_dark_grass" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_dark_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19477" name="street_curbs_01_blend_dirt" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_dirt.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19565" name="street_curbs_01_blend_gravel" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_gravel.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19653" name="street_curbs_01_blend_light_grass" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_light_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19741" name="street_curbs_01_blend_medium_grass" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_medium_grass.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19829" name="street_curbs_01_blend_sand" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_sand.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="19917" name="street_curbs_01_blend_street" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_blend_street.png" width="512" height="1408"/>
+ </tileset>
+ <tileset firstgid="20005" name="street_curbs_01_diag" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_diag.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="20085" name="street_curbs_01_diag_2" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_curbs_01_diag_2.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="20165" name="street_decoration_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_decoration_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="20293" name="street_roadsigns_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_roadsigns_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="20373" name="street_trafficlines_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_trafficlines_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="20437" name="street_trafficlines_curb_white_faded" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_trafficlines_curb_white_faded.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="20597" name="street_trafficlines_curb_white_full" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_trafficlines_curb_white_full.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="20757" name="street_trafficlines_curb_yellow_faded" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_trafficlines_curb_yellow_faded.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="20917" name="street_trafficlines_curb_yellow_full" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/street_trafficlines_curb_yellow_full.png" width="512" height="2560"/>
+ </tileset>
+ <tileset firstgid="21077" name="trash&amp;junk_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/trash&amp;junk_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="21157" name="trash_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/trash_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21221" name="trash_walls_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/trash_walls_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21285" name="trashcontainers_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/trashcontainers_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="21349" name="underground_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/2x_backup_stable/underground_01.png" width="1024" height="5120"/>
+ </tileset>
+ <tileset firstgid="21989" name="vegetation_farm_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_farm_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22053" name="vegetation_farming_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_farming_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="22133" name="vegetation_foliage_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_foliage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22197" name="vegetation_groundcover_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_groundcover_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22261" name="vegetation_indoor_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_indoor_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22325" name="vegetation_ornamental_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_ornamental_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22389" name="vegetation_trees_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_trees_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22453" name="vegetation_wall_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/vegetation_wall_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22517" name="walls_burnt_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_burnt_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="22581" name="walls_burnt_roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_burnt_roofs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="22661" name="walls_commercial_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_commercial_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="22789" name="walls_commercial_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_commercial_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="22869" name="walls_commercial_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_commercial_03.png" width="512" height="1536"/>
+ </tileset>
+ <tileset firstgid="22965" name="walls_decoration_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_decoration_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="23093" name="walls_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_detailing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="23221" name="walls_exterior_house_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_house_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="23285" name="walls_exterior_house_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_house_02.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="23413" name="walls_exterior_roofs_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23493" name="walls_exterior_roofs_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_02.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23573" name="walls_exterior_roofs_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_03.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23653" name="walls_exterior_roofs_04" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_04.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23733" name="walls_exterior_roofs_05" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_05.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23813" name="walls_exterior_roofs_06" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_06.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="23877" name="walls_exterior_roofs_07" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_07.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="23957" name="walls_exterior_roofs_08" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_08.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="24037" name="walls_exterior_roofs_09" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_roofs_09.png" width="512" height="2688"/>
+ </tileset>
+ <tileset firstgid="24205" name="walls_exterior_wooden_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_wooden_01.png" width="512" height="1280"/>
+ </tileset>
+ <tileset firstgid="24285" name="walls_exterior_wooden_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_exterior_wooden_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24349" name="walls_garage_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_garage_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24413" name="walls_garage_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_garage_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24477" name="walls_house_blocks_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_blocks_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24541" name="walls_house_blocks_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_blocks_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24605" name="walls_house_blocks_LIGHT_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_blocks_LIGHT_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24669" name="walls_house_blocks_LIGHT_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_blocks_LIGHT_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24733" name="walls_house_brick_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_brick_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24797" name="walls_house_brick_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_brick_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24861" name="walls_house_brick_LIGHT_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_brick_LIGHT_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24925" name="walls_house_brick_LIGHT_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_brick_LIGHT_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="24989" name="walls_house_clapboard_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_clapboard_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25053" name="walls_house_clapboard_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_clapboard_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25117" name="walls_house_clapboard_LIGHT_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_clapboard_LIGHT_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25181" name="walls_house_clapboard_LIGHT_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_clapboard_LIGHT_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25245" name="walls_house_flatstone_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_flatstone_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25309" name="walls_house_flatstone_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_flatstone_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25373" name="walls_house_smooth_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_smooth_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25437" name="walls_house_smooth_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_smooth_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25501" name="walls_house_stone_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_stone_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25565" name="walls_house_stone_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_stone_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25629" name="walls_house_trailer_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_trailer_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25693" name="walls_house_trailer_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_trailer_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25757" name="walls_house_wood_01" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_wood_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25821" name="walls_house_wood_01_MIRRORED" tilewidth="64" tileheight="128">
+  <image source="overlays/walls_house_wood_01_MIRRORED.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25885" name="walls_interior_bathroom_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_bathroom_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="25949" name="walls_interior_cutaways_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_cutaways_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="26077" name="walls_interior_detailing_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_detailing_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="26205" name="walls_interior_house_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_house_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="26269" name="walls_interior_house_02" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_house_02.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="26333" name="walls_interior_house_03" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_house_03.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="26397" name="walls_interior_house_04" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_interior_house_04.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="26525" name="walls_special_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/walls_special_01.png" width="512" height="2048"/>
+ </tileset>
+ <tileset firstgid="26653" name="weapons_01" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/weapons_01.png" width="512" height="1024"/>
+ </tileset>
+ <tileset firstgid="26717" name="z_templates_letterboard" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/z_templates_letterboard.png" width="314" height="233"/>
+ </tileset>
+ <tileset firstgid="26729" name="z_templates_wallcutaways" tilewidth="64" tileheight="128">
+  <image source="../../../Tiles/z_templates_wallcutaways.png" width="640" height="1024"/>
+ </tileset>
+ <layer name="0_Floor" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay2" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay3" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_FloorOverlay4" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <layer name="0_Vegetation" width="300" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20KP6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAlwF+iwAB
+  </data>
+ </layer>
+ <objectgroup name="0_Lots" width="300" height="300"/>
+ <bmp-settings version="1">
+  <rules-file file="../../Rules.txt"/>
+  <blends-file file="../../Blends.txt"/>
+  <edges-everywhere value="false"/>
+  <aliases>
+   <alias name="lightgrass_n" tiles="blends_natural_01_056 blends_natural_01_060"/>
+   <alias name="lightgrass_w" tiles="blends_natural_01_057 blends_natural_01_061"/>
+   <alias name="lightgrass_e" tiles="blends_natural_01_058 blends_natural_01_062"/>
+   <alias name="lightgrass_s" tiles="blends_natural_01_059 blends_natural_01_063"/>
+   <alias name="medgrass_n" tiles="blends_natural_01_040 blends_natural_01_044"/>
+   <alias name="medgrass_w" tiles="blends_natural_01_041 blends_natural_01_045"/>
+   <alias name="medgrass_e" tiles="blends_natural_01_042 blends_natural_01_046"/>
+   <alias name="medgrass_s" tiles="blends_natural_01_043 blends_natural_01_047"/>
+   <alias name="darkgrass_n" tiles="blends_natural_01_024 blends_natural_01_028"/>
+   <alias name="darkgrass_w" tiles="blends_natural_01_025 blends_natural_01_029"/>
+   <alias name="darkgrass_e" tiles="blends_natural_01_026 blends_natural_01_030"/>
+   <alias name="darkgrass_s" tiles="blends_natural_01_027 blends_natural_01_031"/>
+   <alias name="sand_n" tiles="blends_natural_01_008 blends_natural_01_012"/>
+   <alias name="sand_w" tiles="blends_natural_01_009 blends_natural_01_013"/>
+   <alias name="sand_e" tiles="blends_natural_01_010 blends_natural_01_014"/>
+   <alias name="sand_s" tiles="blends_natural_01_011 blends_natural_01_015"/>
+   <alias name="medlonggrass" tiles="blends_grassoverlays_01_024 blends_grassoverlays_01_025 blends_grassoverlays_01_026 blends_grassoverlays_01_027 blends_grassoverlays_01_028 blends_grassoverlays_01_029"/>
+   <alias name="medmedgrass" tiles="blends_grassoverlays_01_032 blends_grassoverlays_01_033 blends_grassoverlays_01_034 blends_grassoverlays_01_035 blends_grassoverlays_01_036 blends_grassoverlays_01_037"/>
+   <alias name="medshortgrass" tiles="blends_grassoverlays_01_040 blends_grassoverlays_01_041 blends_grassoverlays_01_042 blends_grassoverlays_01_043 blends_grassoverlays_01_044 blends_grassoverlays_01_045"/>
+   <alias name="lightlonggrass" tiles="blends_grassoverlays_01_048 blends_grassoverlays_01_049 blends_grassoverlays_01_050 blends_grassoverlays_01_051 blends_grassoverlays_01_052 blends_grassoverlays_01_053"/>
+   <alias name="lightmedgrass" tiles="blends_grassoverlays_01_056 blends_grassoverlays_01_057 blends_grassoverlays_01_058 blends_grassoverlays_01_059 blends_grassoverlays_01_060 blends_grassoverlays_01_061"/>
+   <alias name="lightshortgrass" tiles="blends_grassoverlays_01_064 blends_grassoverlays_01_065 blends_grassoverlays_01_066 blends_grassoverlays_01_067 blends_grassoverlays_01_068 blends_grassoverlays_01_069"/>
+   <alias name="darklonggrass" tiles="blends_grassoverlays_01_000 blends_grassoverlays_01_001 blends_grassoverlays_01_002 blends_grassoverlays_01_003 blends_grassoverlays_01_004 blends_grassoverlays_01_005"/>
+   <alias name="darkmedgrass" tiles="blends_grassoverlays_01_008 blends_grassoverlays_01_009 blends_grassoverlays_01_010 blends_grassoverlays_01_011 blends_grassoverlays_01_012 blends_grassoverlays_01_013"/>
+   <alias name="darkshortgrass" tiles="blends_grassoverlays_01_016 blends_grassoverlays_01_017 blends_grassoverlays_01_018 blends_grassoverlays_01_019 blends_grassoverlays_01_020 blends_grassoverlays_01_021"/>
+   <alias name="street" tiles="blends_street_01_096 blends_street_01_101 blends_street_01_102 blends_street_01_103"/>
+   <alias name="street2" tiles="blends_street_01_080 blends_street_01_085 blends_street_01_086 blends_street_01_087"/>
+   <alias name="lightgravel" tiles="blends_street_01_048 blends_street_01_053 blends_street_01_054 blends_street_01_055"/>
+   <alias name="pothole" tiles="blends_street_01_016 blends_street_01_021"/>
+   <alias name="dirt" tiles="blends_natural_01_064 blends_natural_01_069 blends_natural_01_070 blends_natural_01_071"/>
+   <alias name="dirtgrass" tiles="blends_natural_01_080 blends_natural_01_085 blends_natural_01_086 blends_natural_01_087"/>
+   <alias name="sand" tiles="blends_natural_01_000 blends_natural_01_005 blends_natural_01_006 blends_natural_01_007"/>
+   <alias name="sandblends" tiles="blends_natural_01_008 blends_natural_01_009 blends_natural_01_010 blends_natural_01_011 blends_natural_01_001 blends_natural_01_004 blends_natural_01_003 blends_natural_01_002"/>
+   <alias name="darkgrassblends" tiles="blends_natural_01_024 blends_natural_01_025 blends_natural_01_026 blends_natural_01_027 blends_natural_01_017 blends_natural_01_020 blends_natural_01_019 blends_natural_01_018"/>
+   <alias name="medgrassblends" tiles="blends_natural_01_040 blends_natural_01_041 blends_natural_01_042 blends_natural_01_043 blends_natural_01_033 blends_natural_01_036 blends_natural_01_035 blends_natural_01_034"/>
+   <alias name="lightgrassblends" tiles="blends_natural_01_056 blends_natural_01_057 blends_natural_01_058 blends_natural_01_059 blends_natural_01_049 blends_natural_01_052 blends_natural_01_051 blends_natural_01_059"/>
+   <alias name="darkgrass" tiles="blends_natural_01_016 blends_natural_01_021 blends_natural_01_022 blends_natural_01_023"/>
+   <alias name="medgrass" tiles="blends_natural_01_032 blends_natural_01_037 blends_natural_01_038 blends_natural_01_039"/>
+   <alias name="lightgrass" tiles="blends_natural_01_048 blends_natural_01_053 blends_natural_01_054 blends_natural_01_055"/>
+   <alias name="water" tiles="blends_natural_02_000 blends_natural_02_005 blends_natural_02_006 blends_natural_02_007"/>
+  </aliases>
+  <rules>
+   <rule label="Dark Grass" bitmapIndex="0" color="90 100 35" tileChoices="darkgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Medium Grass" bitmapIndex="0" color="117 117 47" tileChoices="medgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Grass" bitmapIndex="0" color="145 135 60" tileChoices="lightgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Sand" bitmapIndex="0" color="210 200 160" tileChoices="sand" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Asphalt" bitmapIndex="0" color="165 160 140" tileChoices="lightgravel" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dark Asphalt (main roads)" bitmapIndex="0" color="100 100 100" tileChoices="street2" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Medium Asphalt" bitmapIndex="0" color="120 120 120" tileChoices="street" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Gravel Dirt" bitmapIndex="0" color="140 70 15" tileChoices="floors_exterior_natural_01_012" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dirt" bitmapIndex="0" color="120 70 20" tileChoices="dirt" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dirt Grass" bitmapIndex="0" color="80 55 20" tileChoices="dirtgrass" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Dark Pothole" bitmapIndex="0" color="110 100 100" tileChoices="blends_street_01_000" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Light Pothole" bitmapIndex="0" color="130 120 120" tileChoices="pothole" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Water" bitmapIndex="0" color="0 138 255" tileChoices="water" targetLayer="0_Floor" condition="0 0 0"/>
+   <rule label="Trees" bitmapIndex="1" color="255 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011" targetLayer="0_Vegetation" condition="0 0 0"/>
+   <rule label="Dense Trees + Dark grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Dense Trees + Medium grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Dense Trees + Light grass" bitmapIndex="1" color="200 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Trees + Dark grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass darklonggrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Trees + Medium grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass medlonggrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Trees + Light grass" bitmapIndex="1" color="127 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass lightlonggrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Fir Trees + Dark grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 darklonggrass darklonggrass darkmedgrass darkshortgrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Fir Trees + Medium grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 medlonggrass medlonggrass medmedgrass medshortgrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Fir Trees + Light grass" bitmapIndex="1" color="64 0 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_009 lightlonggrass lightlonggrass lightmedgrass lightshortgrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Grass (all types)" bitmapIndex="1" color="0 255 0" tileChoices="darklonggrass darkmedgrass darkshortgrass darklonggrass darkmedgrass darkshortgrass darklonggrass darkmedgrass darkshortgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Light long grass" bitmapIndex="1" color="0 255 0" tileChoices="lightshortgrass lightmedgrass lightlonggrass lightshortgrass lightmedgrass lightlonggrass lightshortgrass lightmedgrass lightlonggrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="" bitmapIndex="1" color="0 255 0" tileChoices="medshortgrass medmedgrass medlonggrass medshortgrass medmedgrass medlonggrass medshortgrass medmedgrass medlonggrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Grass + Few Trees (dark)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 darklonggrass darklonggrass darkmedgrass darkshortgrass darklonggrass darklonggrass darklonggrass darkmedgrass darkmedgrass vegetation_trees_01_008 vegetation_trees_01_010 darklonggrass darklonggrass darkmedgrass darklonggrass darklonggrass darkmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Grass + Few Trees (medium)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 medlonggrass medlonggrass medmedgrass medshortgrass medlonggrass medlonggrass medlonggrass medmedgrass medmedgrass vegetation_trees_01_008 vegetation_trees_01_010 medlonggrass medlonggrass medmedgrass medlonggrass medlonggrass medmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Grass + Few Trees (light)" bitmapIndex="1" color="0 128 0" tileChoices="vegetation_trees_01_008 vegetation_trees_01_010 lightlonggrass lightlonggrass lightmedgrass lightshortgrass lightlonggrass lightlonggrass lightlonggrass lightmedgrass lightmedgrass vegetation_trees_01_008 vegetation_trees_01_010 lightlonggrass lightlonggrass lightmedgrass lightlonggrass lightlonggrass lightmedgrass vegetation_groundcover_01_018 vegetation_groundcover_01_019 vegetation_groundcover_01_021 vegetation_groundcover_01_022 vegetation_groundcover_01_023" targetLayer="0_Vegetation" condition="145 135 60"/>
+   <rule label="Bushes, Grass, Few Trees (dark)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 darklonggrass darklonggrass darkmedgrass darkshortgrass" targetLayer="0_Vegetation" condition="90 100 35"/>
+   <rule label="Bushes, Grass, Few Trees (medium)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 medlonggrass medlonggrass medmedgrass medshortgrass" targetLayer="0_Vegetation" condition="117 117 47"/>
+   <rule label="Bushes, Grass, Few Trees (light)" bitmapIndex="1" color="255 0 255" tileChoices="vegetation_foliage_01_008 vegetation_foliage_01_009 vegetation_foliage_01_010 vegetation_foliage_01_011 vegetation_foliage_01_012 vegetation_foliage_01_013 vegetation_foliage_01_014 vegetation_trees_01_008 vegetation_trees_01_009 vegetation_trees_01_010 vegetation_trees_01_011 lightlonggrass lightlonggrass lightmedgrass lightshortgrass" targetLayer="0_Vegetation" condition="145 135 60"/>
+  </rules>
+  <blends>
+   <blend targetLayer="0_FloorOverlay" mainTile="darkgrass" blendTile="darkgrass_n" dir="n" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="darkgrass" blendTile="darkgrass_w" dir="w" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="darkgrass" blendTile="darkgrass_e" dir="e" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="darkgrass" blendTile="darkgrass_s" dir="s" ExclusionList="water" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="darkgrass" blendTile="blends_natural_01_017" dir="nw" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="darkgrass" blendTile="blends_natural_01_020" dir="ne" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="darkgrass" blendTile="blends_natural_01_019" dir="sw" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="darkgrass" blendTile="blends_natural_01_018" dir="se" ExclusionList="water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="medgrass" blendTile="medgrass_n" dir="n" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="medgrass" blendTile="medgrass_w" dir="w" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="medgrass" blendTile="medgrass_e" dir="e" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="medgrass" blendTile="medgrass_s" dir="s" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="medgrass" blendTile="blends_natural_01_033" dir="nw" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="medgrass" blendTile="blends_natural_01_036" dir="ne" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="medgrass" blendTile="blends_natural_01_035" dir="sw" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="medgrass" blendTile="blends_natural_01_034" dir="se" ExclusionList="darkgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="lightgrass" blendTile="lightgrass_n" dir="n" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="lightgrass" blendTile="lightgrass_w" dir="w" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="lightgrass" blendTile="lightgrass_e" dir="e" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="lightgrass" blendTile="lightgrass_s" dir="s" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="lightgrass" blendTile="blends_natural_01_049" dir="nw" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="lightgrass" blendTile="blends_natural_01_052" dir="ne" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="lightgrass" blendTile="blends_natural_01_051" dir="sw" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="lightgrass" blendTile="blends_natural_01_050" dir="se" ExclusionList="darkgrass medgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="sand" blendTile="sand_n" dir="n" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="sand" blendTile="sand_w" dir="w" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="sand" blendTile="sand_e" dir="e" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="sand" blendTile="sand_s" dir="s" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay" mainTile="sand" blendTile="blends_natural_01_001" dir="nw" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="sand" blendTile="blends_natural_01_004" dir="ne" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="sand" blendTile="blends_natural_01_003" dir="sw" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="sand" blendTile="blends_natural_01_002" dir="se" ExclusionList="darkgrass medgrass lightgrass water" exclude2="street_trafficlines_001 0_FloorOverlay street_trafficlines_001 0_FloorOverlay2 street_trafficlines_001 0_FloorOverlay3 street_trafficlines_001 0_FloorOverlay4"/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="blends_street_01_000" blendTile="blends_street_01_008" dir="n" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="blends_street_01_000" blendTile="blends_street_01_009" dir="w" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="blends_street_01_000" blendTile="blends_street_01_010" dir="e" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="blends_street_01_000" blendTile="blends_street_01_011" dir="s" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="blends_street_01_000" blendTile="blends_street_01_001" dir="nw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="blends_street_01_000" blendTile="blends_street_01_002" dir="se" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="blends_street_01_000" blendTile="blends_street_01_003" dir="sw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="blends_street_01_000" blendTile="blends_street_01_004" dir="ne" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="pothole" blendTile="blends_street_01_024" dir="n" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="pothole" blendTile="blends_street_01_025" dir="w" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="pothole" blendTile="blends_street_01_026" dir="e" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="pothole" blendTile="blends_street_01_027" dir="s" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="pothole" blendTile="blends_street_01_017" dir="nw" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="pothole" blendTile="blends_street_01_018" dir="se" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="pothole" blendTile="blends_street_01_019" dir="sw" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="pothole" blendTile="blends_street_01_020" dir="ne" ExclusionList="lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirt" blendTile="blends_natural_01_072" dir="n" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirt" blendTile="blends_natural_01_073" dir="w" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirt" blendTile="blends_natural_01_074" dir="e" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirt" blendTile="blends_natural_01_075" dir="s" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirt" blendTile="blends_natural_01_065" dir="nw" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirt" blendTile="blends_natural_01_066" dir="se" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirt" blendTile="blends_natural_01_067" dir="sw" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirt" blendTile="blends_natural_01_068" dir="ne" ExclusionList="water lightgrass medgrass darkgrass sand dirtgrass" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirtgrass" blendTile="blends_natural_01_088" dir="n" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirtgrass" blendTile="blends_natural_01_089" dir="w" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirtgrass" blendTile="blends_natural_01_090" dir="e" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirtgrass" blendTile="blends_natural_01_091" dir="s" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="dirtgrass" blendTile="blends_natural_01_081" dir="nw" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="dirtgrass" blendTile="blends_natural_01_082" dir="se" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="dirtgrass" blendTile="blends_natural_01_083" dir="sw" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="dirtgrass" blendTile="blends_natural_01_084" dir="ne" ExclusionList="water lightgrass medgrass darkgrass sand" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="water" blendTile="blends_natural_02_008" dir="n" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="water" blendTile="blends_natural_02_009" dir="w" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="water" blendTile="blends_natural_02_010" dir="e" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="water" blendTile="blends_natural_02_011" dir="s" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay" mainTile="water" blendTile="blends_natural_02_001" dir="nw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay2" mainTile="water" blendTile="blends_natural_02_002" dir="se" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay3" mainTile="water" blendTile="blends_natural_02_003" dir="sw" ExclusionList="" exclude2=""/>
+   <blend targetLayer="0_FloorOverlay4" mainTile="water" blendTile="blends_natural_02_004" dir="ne" ExclusionList="" exclude2=""/>
+  </blends>
+ </bmp-settings>
+ <bmp-image index="0" seed="1">
+  <color rgb="0 138 255"/>
+  <color rgb="90 100 35"/>
+  <color rgb="100 100 100"/>
+  <color rgb="110 100 100"/>
+  <color rgb="117 117 47"/>
+  <color rgb="120 70 20"/>
+  <color rgb="130 120 120"/>
+  <color rgb="145 135 60"/>
+  <color rgb="165 160 140"/>
+  <pixels>
+   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
+  </pixels>
+ </bmp-image>
+ <bmp-image index="1" seed="1">
+  <color rgb="64 0 0"/>
+  <color rgb="127 0 0"/>
+  <color rgb="255 0 0"/>
+  <pixels>
+   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
+  </pixels>
+ </bmp-image>
+</map>

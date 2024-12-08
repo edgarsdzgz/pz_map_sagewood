@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<world version="1.0" width="4" height="4">
+ <BMPToTMX>
+  <tmxexportdir path="tmx"/>
+  <rulesfile path=""/>
+  <blendsfile path=""/>
+  <mapbasefile path=""/>
+  <assign-maps-to-world checked="true"/>
+  <warn-unknown-colors checked="true"/>
+  <compress checked="true"/>
+  <copy-pixels checked="true"/>
+  <update-existing checked="false"/>
+ </BMPToTMX>
+ <TMXToBMP>
+  <mainImage generate="true"/>
+  <vegetationImage generate="true"/>
+  <buildingsImage path="" generate="false"/>
+ </TMXToBMP>
+ <GenerateLots>
+  <exportdir path="lots"/>
+  <ZombieSpawnMap path="images/ZSpawn_img__2__120x120.png"/>
+  <TileDefFolder path="../../Tiles"/>
+  <worldOrigin origin="17,32"/>
+ </GenerateLots>
+ <LuaSettings>
+  <spawnPointsFile path="spawnpoints.lua"/>
+  <worldObjectsFile path="objects.lua"/>
+ </LuaSettings>
+ <bmp path="images/Sagewood_N_newLocation__2__.png" x="0" y="0" width="4" height="4"/>
+ <bmp path="images/Sagewood_N_South_NewLocation___2__.png" x="1" y="3" width="2" height="1"/>
+ <bmp path="images/Sagewood_N_South_NewLocation___2__.png" x="1" y="3" width="2" height="1"/>
+ <bmp path="images/Sagewood_N_newLocation_3.png" x="0" y="0" width="4" height="3"/>
+ <bmp path="images/Sagewood_N_NewLocation_4.png" x="0" y="0" width="4" height="4"/>
+ <bmp path="images/Sagewood_N_NewLocation_4.png" x="0" y="0" width="4" height="4"/>
+ <propertyenum name="Direction" choices="N,S,W,E" multi="false"/>
+ <propertyenum name="Pose" choices="pose01,pose02,pose03" multi="false"/>
+ <propertyenum name="Skin" choices="White,Black" multi="false"/>
+ <propertyenum name="RoomTone" choices="Generic,Barn,Mall,Warehouse,Prison,Church,Office,Factory" multi="false"/>
+ <propertyenum name="Professions" choices="all,unemployed,policeofficer,constructionworker,securityguard,parkranger,fireofficer" multi="true"/>
+ <propertydef name="Direction" default="N" enum="Direction"/>
+ <propertydef name="FaceDirection" default="true"/>
+ <propertydef name="WaterDirection" default="0.0"/>
+ <propertydef name="WaterSpeed" default="0.0"/>
+ <propertydef name="WaterGround" default="false"/>
+ <propertydef name="WaterShore" default="true"/>
+ <propertydef name="Female" default="true"/>
+ <propertydef name="Outfit" default=""/>
+ <propertydef name="Pose" default="pose01" enum="Pose"/>
+ <propertydef name="Script" default=""/>
+ <propertydef name="Skin" default="White" enum="Skin"/>
+ <propertydef name="RoomTone" default="Generic" enum="RoomTone"/>
+ <propertydef name="EntireBuilding" default="false"/>
+ <propertydef name="Professions" default="all" enum="Professions">
+  <description>Comma-separated list of professions that may spawn here.  Use &quot;all&quot; to allow any profession to spawn here.</description>
+ </propertydef>
+ <template name="ParkingStallN">
+  <property name="Direction" value="N"/>
+ </template>
+ <template name="ParkingStallS">
+  <property name="Direction" value="S"/>
+ </template>
+ <template name="ParkingStallW">
+  <property name="Direction" value="W"/>
+ </template>
+ <template name="ParkingStallE">
+  <property name="Direction" value="E"/>
+ </template>
+ <template name="WaterFlowN">
+  <property name="WaterDirection" value="0"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowS">
+  <property name="WaterDirection" value="180"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowE">
+  <property name="WaterDirection" value="90"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterFlowW">
+  <property name="WaterDirection" value="270"/>
+  <property name="WaterSpeed" value="1.0"/>
+ </template>
+ <template name="WaterZone">
+  <property name="WaterGround" value="false"/>
+  <property name="WaterShore" value="true"/>
+ </template>
+ <template name="RoomTone">
+  <property name="RoomTone" value="Generic"/>
+  <property name="EntireBuilding" value="false"/>
+ </template>
+ <template name="SpawnPoint">
+  <description>This template holds the default set of properties for all spawn points in the world.</description>
+  <property name="Professions" value="all"/>
+ </template>
+ <objecttype name="TownZone"/>
+ <objecttype name="Forest"/>
+ <objecttype name="DeepForest"/>
+ <objecttype name="Nav"/>
+ <objecttype name="Vegitation"/>
+ <objecttype name="TrailerPark"/>
+ <objecttype name="Farm"/>
+ <objecttype name="ParkingStall"/>
+ <objecttype name="FarmLand"/>
+ <objecttype name="WaterFlow"/>
+ <objecttype name="WaterZone"/>
+ <objecttype name="Mannequin"/>
+ <objecttype name="RoomTone"/>
+ <objecttype name="SpawnPoint"/>
+ <objectgroup name="ParkingStall" color="#ff007f" defaulttype="ParkingStall"/>
+ <objectgroup name="TownZone" color="#aa0000" defaulttype="TownZone"/>
+ <objectgroup name="Forest" color="#00aa00" defaulttype="Forest"/>
+ <objectgroup name="Nav" color="#55aaff" defaulttype="Nav"/>
+ <objectgroup name="DeepForest" color="#003500" defaulttype="DeepForest"/>
+ <objectgroup name="Vegitation" color="#b3b300" defaulttype="Vegitation"/>
+ <objectgroup name="TrailerPark" color="#f50000" defaulttype="TrailerPark"/>
+ <objectgroup name="Farm" color="#55ff7f" defaulttype="Farm"/>
+ <objectgroup name="FarmLand" color="#bcff7d" defaulttype="FarmLand"/>
+ <objectgroup name="WaterFlow" color="#0000ff" defaulttype="WaterFlow"/>
+ <objectgroup name="WaterZone" color="#0000ff" defaulttype="WaterZone"/>
+ <objectgroup name="Mannequin" color="#0000ff" defaulttype="Mannequin"/>
+ <objectgroup name="RoomTone" color="#0000ff" defaulttype="RoomTone"/>
+ <cell x="0" y="0" map="tmx/Sagewood_N_NewLocation_4_17_32.tmx">
+  <lot x="63" y="160" level="0" width="16" height="25" map="tmx/tbx/18_34/CarltonOaks.tbx"/>
+  <lot x="106" y="130" level="0" width="16" height="25" map="tmx/tbx/18_34/CarltonOaks.tbx"/>
+  <lot x="150" y="135" level="0" width="16" height="11" map="tmx/tbx/18_34/NResident3br1.5ba.tbx"/>
+  <lot x="64" y="133" level="0" width="21" height="21" map="tmx/tbx/18_34/Resident2br1ba.tbx"/>
+  <lot x="142" y="165" level="0" width="21" height="21" map="tmx/tbx/18_34/Resident2br1ba.tbx"/>
+  <lot x="150" y="151" level="0" width="16" height="11" map="tmx/tbx/18_34/NResident3br1.5ba.tbx"/>
+  <lot x="171" y="218" level="0" width="11" height="6" map="tmx/tbx/18_34/electricity_pylon.tbx"/>
+ </cell>
+ <cell x="1" y="0" map="tmx/Sagewood_N_NewLocation_4_18_32.tmx"/>
+ <cell x="2" y="0" map="tmx/Sagewood_N_NewLocation_4_19_32.tmx"/>
+ <cell x="3" y="0" map="tmx/Sagewood_N_NewLocation_4_20_32.tmx"/>
+ <cell x="0" y="1" map="tmx/Sagewood_N_NewLocation_4_17_33.tmx">
+  <lot x="225" y="51" level="0" width="71" height="51" map="tmx/tbx/18_34/17_33_raxManor_x_y.tbx"/>
+ </cell>
+ <cell x="1" y="1" map="tmx/Sagewood_N_NewLocation_4_18_33.tmx">
+  <lot x="205" y="50" level="0" width="42" height="42" map="tmx/tbx/18_33/Resort.tbx"/>
+  <lot x="162" y="117" level="0" width="58" height="46" map="tmx/tbx/18_33/Sagewood Strip Mall.tbx"/>
+ </cell>
+ <cell x="2" y="1" map="tmx/Sagewood_N_NewLocation_4_19_33.tmx">
+  <lot x="108" y="241" level="0" width="81" height="21" map="tmx/tbx/19_33/buildings/36_37_block_108_241.tbx"/>
+  <lot x="14" y="243" level="0" width="59" height="21" map="tmx/tbx/19_33/buildings/36_37_block_17_236.tbx"/>
+  <lot x="13" y="278" level="0" width="60" height="20" map="tmx/tbx/19_33/buildings/36_37_block_16_279.tbx"/>
+  <lot x="56" y="210" level="0" width="20" height="16" map="tmx/tbx/19_33/buildings/36_37_apartment_1.tbx"/>
+  <lot x="31" y="207" level="0" width="25" height="22" map="tmx/tbx/19_33/buildings/36_37_apartment_2.tbx"/>
+  <lot x="12" y="211" level="0" width="19" height="16" map="tmx/tbx/19_33/buildings/36_37_apartment_3.tbx"/>
+  <lot x="156" y="208" level="0" width="37" height="29" map="tmx/tbx/19_33/buildings/36_37_gasBlock_.tbx"/>
+  <lot x="102" y="206" level="0" width="22" height="24" map="tmx/tbx/19_33/buildings/PoliceStation.tbx"/>
+  <lot x="129" y="208" level="0" width="19" height="6" map="tmx/tbx/19_33/buildings/36_37_apartment_5.tbx"/>
+  <lot x="130" y="222" level="0" width="18" height="6" map="tmx/tbx/19_33/buildings/36_37_apartment_4.tbx"/>
+  <lot x="105" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="111" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="117" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="123" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="129" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="135" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <lot x="141" y="278" level="0" width="6" height="11" map="tmx/tbx/19_33/buildings/SmallStorageUnit.tbx"/>
+  <object type="SpawnPoint" x="71" y="240" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+ </cell>
+ <cell x="3" y="1" map="tmx/Sagewood_N_NewLocation_4_20_33.tmx"/>
+ <cell x="0" y="2" map="tmx/Sagewood_N_NewLocation_4_17_34.tmx"/>
+ <cell x="1" y="2" map="tmx/Sagewood_N_NewLocation_4_18_34.tmx">
+  <lot x="122" y="80" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_86.tbx"/>
+  <lot x="122" y="21" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_99.tbx"/>
+  <lot x="121" y="201" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_125.tbx"/>
+  <lot x="122" y="59" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_138.tbx"/>
+  <lot x="122" y="40" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_151.tbx"/>
+  <lot x="122" y="120" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_164.tbx"/>
+  <lot x="122" y="100" level="0" width="21" height="13" map="tmx/tbx/18_34/35_38_house_106_177.tbx"/>
+  <lot x="213" y="155" level="0" width="79" height="27" map="tmx/tbx/18_34/35_38_school_209_103.tbx"/>
+  <lot x="175" y="62" level="0" width="17" height="25" map="tmx/tbx/18_34/futura_block_58.tbx"/>
+  <lot x="175" y="94" level="0" width="17" height="25" map="tmx/tbx/18_34/futura_block_60.tbx"/>
+  <lot x="175" y="126" level="0" width="17" height="25" map="tmx/tbx/18_34/futura_block_62.tbx"/>
+  <lot x="175" y="158" level="0" width="17" height="25" map="tmx/tbx/18_34/futura_block_64.tbx"/>
+  <lot x="175" y="190" level="0" width="17" height="25" map="tmx/tbx/18_34/futura_block_66.tbx"/>
+  <lot x="167" y="251" level="0" width="6" height="12" map="tmx/tbx/18_34/35_38_apartment_217_241.tbx"/>
+  <lot x="124" y="179" level="0" width="19" height="11" map="tmx/tbx/18_34/18_34_house_124_179.tbx"/>
+  <lot x="114" y="188" level="0" width="6" height="6" map="tmx/tbx/18_34/18_34_garage_114_188.tbx"/>
+  <lot x="122" y="159" level="0" width="19" height="14" map="tmx/tbx/18_34/18_34_house_122_159.tbx"/>
+  <lot x="274" y="15" level="0" width="21" height="16" map="tmx/tbx/18_34/18_34_arcade_274_15.tbx"/>
+  <lot x="127" y="265" level="0" width="10" height="7" map="tmx/tbx/18_34/18_34_fossoil_127_265.tbx"/>
+  <lot x="119" y="263" level="0" width="6" height="6" map="tmx/tbx/18_34/18_34_fossoilStorage_119_263.tbx"/>
+  <lot x="208" y="13" level="0" width="50" height="21" map="tmx/tbx/18_34/18_34_block_01_208_13.tbx"/>
+  <lot x="159" y="13" level="0" width="34" height="20" map="tmx/tbx/18_34/18_34_fossoil_159_13.tbx"/>
+  <lot x="114" y="142" level="0" width="18" height="14" map="tmx/tbx/18_34/18_34_house_114_142.tbx"/>
+  <lot x="32" y="212" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="198" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="184" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="170" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="156" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="142" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="32" y="128" level="0" width="8" height="10" map="tmx/tbx/18_34/NResidebt1br1baNice.tbx"/>
+  <lot x="18" y="260" level="0" width="18" height="18" map="tmx/tbx/18_34/Cabin.tbx"/>
+  <object type="SpawnPoint" x="240" y="184" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="167" y="57" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+ </cell>
+ <cell x="2" y="2" map="tmx/19_34.tmx">
+  <lot x="102" y="245" level="0" width="92" height="24" map="tmx/tbx/19_34/buildings/19_34_block_105_238.tbx"/>
+  <lot x="219" y="10" level="0" width="69" height="27" map="tmx/tbx/19_34/buildings/19_34_block_222_48.tbx"/>
+  <lot x="10" y="207" level="0" width="65" height="25" map="tmx/tbx/19_34/buildings/19_34_block_14_203.tbx"/>
+  <lot x="10" y="243" level="0" width="66" height="26" map="tmx/tbx/19_34/buildings/19_34_block_14_238.tbx"/>
+  <lot x="219" y="50" level="0" width="64" height="26" map="tmx/tbx/19_34/buildings/19_34_block_222_79.tbx"/>
+  <lot x="219" y="85" level="0" width="64" height="24" map="tmx/tbx/19_34/buildings/19_34_block_224_14.tbx"/>
+  <lot x="221" y="115" level="0" width="65" height="25" map="tmx/tbx/19_34/buildings/19_34_block_224_110.tbx"/>
+  <lot x="220" y="149" level="0" width="60" height="16" map="tmx/tbx/19_34/buildings/19_34_block_224_144.tbx"/>
+  <lot x="220" y="246" level="0" width="63" height="23" map="tmx/tbx/19_34/buildings/19_34_block_224_240.tbx"/>
+  <lot x="220" y="178" level="0" width="61" height="21" map="tmx/tbx/19_34/buildings/19_34_block_225_205.tbx"/>
+  <lot x="223" y="209" level="0" width="59" height="21" map="tmx/tbx/19_34/buildings/19_34_block_227_174.tbx"/>
+  <lot x="104" y="12" level="0" width="24" height="15" map="tmx/tbx/19_34/buildings/fossoil_02_24x16_N.tbx"/>
+  <lot x="128" y="14" level="0" width="24" height="16" map="tmx/tbx/19_34/buildings/block_small_07_24x16.tbx"/>
+  <lot x="170" y="15" level="0" width="20" height="14" map="tmx/tbx/19_34/buildings/block_small_06_20x16.tbx"/>
+  <lot x="152" y="14" level="0" width="18" height="15" map="tmx/tbx/19_34/buildings/block_small_05_19x16.tbx"/>
+  <lot x="9" y="180" level="0" width="23" height="16" map="tmx/tbx/19_34/buildings/block_small_03_23x16.tbx"/>
+  <lot x="57" y="180" level="0" width="20" height="16" map="tmx/tbx/19_34/buildings/block_small_02_20x16.tbx"/>
+  <lot x="32" y="180" level="0" width="25" height="16" map="tmx/tbx/19_34/buildings/block_small_01_16x25.tbx"/>
+  <lot x="13" y="88" level="0" width="61" height="17" map="tmx/tbx/19_34/buildings/19_34_block_13_88.tbx"/>
+  <lot x="11" y="50" level="0" width="65" height="25" map="tmx/tbx/19_34/buildings/19_34_block_11_50.tbx"/>
+  <lot x="10" y="10" level="0" width="66" height="24" map="tmx/tbx/19_34/buildings/19_34_block_10_10.tbx"/>
+  <lot x="11" y="118" level="0" width="62" height="19" map="tmx/tbx/19_34/buildings/19_34_block_11_118.tbx"/>
+  <lot x="13" y="150" level="0" width="62" height="17" map="tmx/tbx/19_34/buildings/19_34_block_13_150.tbx"/>
+  <object type="SpawnPoint" x="152" y="174" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="180" y="279" level="0" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+  <object type="SpawnPoint" x="246" y="132" level="2" width="1" height="1">
+   <template name="SpawnPoint"/>
+  </object>
+ </cell>
+ <cell x="3" y="2" map="tmx/Sagewood_N_NewLocation_4_20_34.tmx"/>
+ <cell x="1" y="3" map="tmx/18_35.tmx"/>
+ <cell x="2" y="3" map="tmx/19_35.tmx"/>
+</world>
